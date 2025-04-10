@@ -1,6 +1,6 @@
 # AI_Powered_Waste_Sorting_And_Recycling_Assistant
 
-Install pyhton 3.12.3
+Install python 3.12.3
 inside cmd
 pyhton --version
 
