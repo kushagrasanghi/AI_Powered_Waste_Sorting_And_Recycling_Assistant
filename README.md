@@ -1,39 +1,7 @@
 # AI_Powered_Waste_Sorting_And_Recycling_Assistant
 
-Install python 3.12.3
-inside cmd
-pyhton --version
+As concerns about waste management and environmental sustainability continue to rise globally, there is a pressing need for innovative solutions that promote responsible waste disposal. Traditional manual waste sorting methods are often inefficient, labor-intensive, and prone to human error, leading to improper disposal of recyclable materials. This results in an increase in landfill waste and missed opportunities for recycling, further exacerbating environmental degradation. To tackle these challenges, we introduce an AI-powered waste sorting and recycling assistant that enhances waste classification through real-time object detection. The system leverages TensorFlow.js, a browser-based machine learning framework, to enable waste identification without requiring high-end computational resources. By integrating a custom-trained object detection model, the system improves waste classification accuracy by 20 percent, ensuring better identification and separation of recyclable materials, ultimately making the sorting process more efficient and reliable.
 
-Install miniconda
-miniconda Test
--conda 
+Beyond AI-driven waste classification, the platform incorporates gamification elements to encourage active participation in recycling efforts. Users are rewarded with points for correctly sorting waste, with their progress tracked on a leaderboard, fostering a sense of competition and motivation to engage in sustainable practices. This interactive approach makes recycling more appealing and encourages individuals to adopt environmentally friendly behaviors in their daily lives. Additionally, the system is designed to be highly accessible, making it particularly useful in regions with limited technological infrastructure and high illiteracy rates. Its browser-based functionality eliminates the need for costly hardware, ensuring that communities with fewer resources can still benefit from AI-powered waste management.
 
-After that
-inside conda cmd 
-conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
-This installs CUDA and CuDnn 
-
-Create Conda environment(Go to drive where you have enough space avoid placing in main OS drive (ex C: drive))
-Navigate to Project folder create new folder named envs inside that
-conda create --name waste_sorting python=3.9 -y
-
-Activate the environment
-conda activate waste_sorting
-
-Tensorflow installaton
-python -m pip install "tensorflow<2.11"
-
-To check if GPU is used or not(inside same conda cmd)
-python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
-
-install packages/libraries
-pip install numpy==1.23.5
-pip install matplotlib
-pip install keras-efficientnet
-
-other packages(required)
-pip install keras opencv-python pandas scikit-learn tqdm pillow
-
-
-inside conda cmd 
-conda list (It should list all the installed packages)
+This work highlights the transformative potential of combining artificial intelligence (AI), the Internet of Things (IoT), and gamification to create efficient, engaging, and sustainable waste management solutions. By leveraging technology to enhance waste sorting, boost user participation, and make recycling more accessible, this AI-powered assistant provides a scalable and impactful approach to addressing global waste challenges. Through innovation and user-driven engagement, this system not only improves recycling efficiency but also promotes environmental awareness, encouraging individuals and communities to actively participate in building a more sustainable future.
